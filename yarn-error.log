@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/luis/.nvm/versions/node/v14.15.4/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/luis/.nvm/versions/node/v14.15.4/bin:/Users/luis/Downloads/google-cloud-sdk/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/luis/Library/Android/sdk/emulator:/Users/luis/Library/Android/sdk/tools:/Users/luis/Library/Android/sdk/tools/bin:/Users/luis/Library/Android/sdk/platform-tools:/Users/luis/development/flutter/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-masked-view/masked-view": "^0.2.8",
+      "@react-navigation/native": "6.1.4",
+      "@react-navigation/native-stack": "^6.9.10",
+      "@react-navigation/stack": "6.3.13",
+      "@reduxjs/toolkit": "1.9.2",
+      "axios": "^0.24.0",
+      "d3-shape": "3.2.0",
+      "expo": "^45.0.8",
+      "expo-status-bar": "~1.0.4",
+      "moment": "^2.29.4",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.68.2",
+      "react-native-chart-kit": "6.12.0",
+      "react-native-gesture-handler": "^2.9.0",
+      "react-native-safe-area-context": "^4.5.0",
+      "react-native-screens": "^3.20.0",
+      "react-native-svg": "12.1.1",
+      "react-native-svg-charts": "^5.4.0",
+      "react-native-web": "~0.13.12",
+      "react-redux": "7.2.9"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.12"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
